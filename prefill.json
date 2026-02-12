@@ -1,1 +1,303 @@
-{"sollicitudGsit":{"DadesTramit":{"Tramit":{"codi":"CLOUDS","nom":"Tràmit de prova"},"Modalitat":{"codi":"IMPL","nom":"Tràmit de prova"},"versioNegoci":"092025","idioma":"ca_ES","urlWebService":"https://integracio.ovt.gencat.cat/gsitgf/AppJava/services/GestorFormularis?wsdl","urlSubmit":"https://integracio.ovt.gencat.cat/gsit-gateway/AppJava/api/tramits/html/","urlLlistes":"https://integracio.ovt.gencat.cat/gsit-gateway/AppJava/api/mestres/","Pagaments":{"Disponibles":[]},"Adjunts":[],"canal":"internet","obligaSign":false,"ParametresDinamics":[{"nom":"GDPR_CA","valor":"<p><b>Identificació del tractament:</b> 'Serveis i tràmits gencat'</p><p><b>Responsable del tractament:</b> Direcció General d'Atenció Ciutadana. Departament de la Presidència.</p><p><b>Finalitat del tractament:</b> garantir la traçabilitat de totes les gestions que la ciutadania realitza amb l'Administració de la Generalitat de Catalunya, mitjançant la plataforma corporativa de la Generalitat Gencat Serveis i Tràmits.</p><p><b>Legitimació:</b> missió realitzada en interès públic o exercici de poders públics i consentiment de la persona interessada.</p><p><b>Destinataris:</b> es preveuen comunicacions de dades als departaments de la Generalitat i entitats vinculades que en depenen per a la gestió dels diferents serveis públics de la seva competència. Les dades també es comunicaran als encarregats de tractament que proveeixen els serveis TIC per compte del responsable del tractament.</p><p><b>Drets de les persones interessades:</b> sol·licitar l'accés, rectificació o supressió de les dades, i la limitació o oposició al tractament. Cal utilitzar els formularis disponibles a la pàgina web del Departament de la Presidència.</p><p><b>Informació addicional:</b> si voleu ampliar aquesta informació podeu consultar la informació addicional del tractament.</p>"}],"ProteccioDades":{"titol":"Informació bàsica sobre protecció de dades","descripcio":"<p><b>Identificació del tractament:</b> 'Serveis i tràmits gencat'</p><p><b>Responsable del tractament:</b> Direcció General d'Atenció Ciutadana. Departament de la Presidència.</p><p><b>Finalitat del tractament:</b> garantir la traçabilitat de totes les gestions que la ciutadania realitza amb l'Administració de la Generalitat de Catalunya, mitjançant la plataforma corporativa de la Generalitat Gencat Serveis i Tràmits.</p><p><b>Legitimació:</b> missió realitzada en interès públic o exercici de poders públics i consentiment de la persona interessada.</p><p><b>Destinataris:</b> es preveuen comunicacions de dades als departaments de la Generalitat i entitats vinculades que en depenen per a la gestió dels diferents serveis públics de la seva competència. Les dades també es comunicaran als encarregats de tractament que proveeixen els serveis TIC per compte del responsable del tractament.</p><p><b>Drets de les persones interessades:</b> sol·licitar l'accés, rectificació o supressió de les dades, i la limitació o oposició al tractament. Cal utilitzar els formularis disponibles a la pàgina web del Departament de la Presidència.</p><p><b>Informació addicional:</b> si voleu ampliar aquesta informació podeu consultar la informació addicional del tractament.</p>"},"tipusSignatari":"0","nomConcatenat":"PERSONADE LA PEÇADE PROVES","tipusSignatura":"0","tipusPresentador":"3"},"Cos":{"Requeridor":{"tipusUsuari":"particular","Persona":{"Particular":{"esSignatari":true,"nom":"Persona","primerCognom":"de la Peça","segonCognom":"de Proves","Document":{"tipusdoc":"nif","PaisDocument":{"codiINE":"ES","nom":"Espanya"},"identificador":"00000000T"},"DadesContacte":{"Adreca":{"normalitzada":false,"Localitat":{"Pais":{"codiINE":"108","nom":"Espanya"},"Provincia":{"codiINE":"25","nom":"Lleida"},"Comarca":{"codiINE":"05","nom":"Alta Ribagorça"},"Municipi":{"codiINE":"25043","nom":"la Vall de Boí"},"codiPostal":"25527"},"UnitatPoblacional":{"codiINE":"25043000100","nom":"Barruera"},"TipusVia":{"codiArvato":"CA","descripcio":"Carrer"},"nomVia":"nada","numero":"1"},"telefonMobil":"0034666084355","adrecaElectronica":"tecnic.ott.operacions22@gencat.cat"},"genere":"H","DadesNaixement":{"dataNaixement":"1970-01-21"},"rolAcreditacio":"1"}}},"Presentador":{"tipusUsuari":"particular","Persona":{"Particular":{"esSignatari":true,"nom":"Persona","primerCognom":"de la Peça","segonCognom":"de Proves","Document":{"tipusdoc":"nif","PaisDocument":{"codiINE":"ES","nom":"Espanya"},"identificador":"00000000T"},"DadesContacte":{"Adreca":{"normalitzada":false,"Localitat":{"Pais":{"codiINE":"108","nom":"Espanya"},"Provincia":{"codiINE":"25","nom":"Lleida"},"Comarca":{"codiINE":"05","nom":"Alta Ribagorça"},"Municipi":{"codiINE":"25043","nom":"la Vall de Boí"},"codiPostal":"25527"},"UnitatPoblacional":{"codiINE":"25043000100","nom":"Barruera"},"TipusVia":{"codiArvato":"CA","descripcio":"Carrer"},"nomVia":"nada","numero":"1"},"telefonMobil":"0034666084355","adrecaElectronica":"tecnic.ott.operacions22@gencat.cat"},"genere":"H","DadesNaixement":{"dataNaixement":"1970-01-21"},"rolAcreditacio":"1"}}},"InfoServei":{"DadesPersona":{"tipusUsuari":"particular","Persona":{"Particular":{"esSignatari":true,"nom":"Persona","primerCognom":"de la Peça","segonCognom":"de Proves","Document":{"tipusdoc":"nif","PaisDocument":{"codiINE":"ES","nom":"Espanya"},"identificador":"00000000T"},"DadesContacte":{"Adreca":{"normalitzada":false,"Localitat":{"Pais":{"codiINE":"108","nom":"Espanya"},"Provincia":{"codiINE":"25","nom":"Lleida"},"Comarca":{"codiINE":"05","nom":"Alta Ribagorça"},"Municipi":{"codiINE":"25043","nom":"la Vall de Boí"},"codiPostal":"25527"},"UnitatPoblacional":{"codiINE":"25043000100","nom":"Barruera"},"TipusVia":{"codiArvato":"CA","descripcio":"Carrer"},"nomVia":"nada","numero":"1"},"telefonMobil":"0034666084355","adrecaElectronica":"tecnic.ott.operacions22@gencat.cat"},"genere":"H","DadesNaixement":{"dataNaixement":"1970-01-21"},"rolAcreditacio":"1"}}}}}}}
+{
+    "sollicitudGsit": {
+        "DadesTramit": {
+            "Tramit": {
+                "codi": "ING001",
+                "nom": "Instància Genèrica (Petició genèrica)"
+            },
+            "Modalitat": {
+                "codi": "HTML",
+                "nom": "Petició genèrica sense signatura electrònica"
+            },
+            "versioNegoci": "202501",
+            "idioma": "ca_ES",
+            "urlWebService": "https://configuracio.ovt.gencat.cat/gsitgf/AppJava/services/GestorFormularis?wsdl",
+            "urlSubmit": "https://configuracio.ovt.gencat.cat/gsit-gateway/AppJava/api/tramits/html/",
+            "urlLlistes": "https://configuracio.ovt.gencat.cat/gsit-gateway/AppJava/api/mestres/",
+            "Pagaments": {
+                "Disponibles": []
+            },
+            "Adjunts": [
+                {
+                    "rol": "INGA001",
+                    "descripcio": "Informació addicional (document I)",
+                    "tamanyMaxim": "20000",
+                    "format": "7z;doc;docx;gif;jpg;ods;odt;pdf;rar;xls;xlsx;zip",
+                    "opcional": "1",
+                    "interoperabilitat": false,
+                    "interoperabilitatObligatori": true,
+                    "interoperabilitatTipus": "OPO"
+                },
+                {
+                    "rol": "INGA002",
+                    "descripcio": "Informació addicional (document II)",
+                    "tamanyMaxim": "20000",
+                    "format": "7z;doc;docx;gif;jpg;ods;odt;pdf;rar;xls;xlsx;zip",
+                    "opcional": "1",
+                    "interoperabilitat": false,
+                    "interoperabilitatObligatori": true,
+                    "interoperabilitatTipus": "OPO"
+                },
+                {
+                    "rol": "INGA003",
+                    "descripcio": "Informació addicional (document III)",
+                    "tamanyMaxim": "20000",
+                    "format": "jpg;docx;xls;xlsx;rar;zip;7z;gif;pdf;doc;ods;odt",
+                    "opcional": "1",
+                    "interoperabilitat": false,
+                    "interoperabilitatObligatori": true,
+                    "interoperabilitatTipus": "OPO"
+                },
+                {
+                    "rol": "40",
+                    "descripcio": "Informació addicional (document IV)",
+                    "tamanyMaxim": "20000",
+                    "format": "jpg;pdf;docx;xls;xlsx;rar;zip;7z;gif;doc;ods;odt",
+                    "opcional": "1",
+                    "interoperabilitat": false,
+                    "interoperabilitatObligatori": true,
+                    "interoperabilitatTipus": "OPO"
+                },
+                {
+                    "rol": "INGA005",
+                    "descripcio": "Informació addicional (document V)",
+                    "tamanyMaxim": "20000",
+                    "format": "jpg;pdf;docx;xls;xlsx;rar;zip;7z;gif;doc;ods;odt",
+                    "opcional": "1",
+                    "interoperabilitat": false,
+                    "interoperabilitatObligatori": true,
+                    "interoperabilitatTipus": "OPO"
+                }
+            ],
+            "canal": "internet",
+            "obligaSign": false,
+            "ParametresDinamics": [
+                {
+                    "nom": "DECLARO1",
+                    "valor": "1. El Registre general electrònic de l'Administració de la Generalitat emet de manera automàtica un rebut de registre de la documentació i una còpia de l'escrit, sol·licitud o comunicació que has presentat. Al rebut de registre pots trobar la referència o codi del registre d'entrada i la data oficial de presentació de la documentació."
+                },
+                {
+                    "nom": "DECLARO1_EN",
+                    "valor": "1. The General Electronic Register of the Administration of the Generalitat automatically issues a registration receipt for the documentation and a copy of the letter, request or communication that you have submitted. On the registration receipt you can find the reference number or code of the record of entry and the official date of submission of the documentation."
+                },
+                {
+                    "nom": "DECLARO1_ES",
+                    "valor": "1. El Registro general electrónico de la Administración de la Generalitat de Cataluña emite de forma automática un recibo de registro de la documentación y una copia del escrito, solicitud o comunicación que has presentado. En el recibo de registro puedes encontrar la referencia o código del registro de entrada y la fecha oficial de presentación de la documentación."
+                },
+                {
+                    "nom": "DECLARO1_OC",
+                    "valor": "1. Eth Registre generau electronic dera Administracion dera Generalitat emet de manèra automatica un recebut de registre dera documentacion e ua còpia der escrit, sollicitacion o comunicacion qu'as presentat. En recebut de registre pòdes trobar era referéncia o còdi deth registre d'entrada e era data oficiau de presentacion dera documentacion."
+                },
+                {
+                    "nom": "DECLARO2",
+                    "valor": "2. La data i hora oficials del Registre, a l'efecte del còmput de terminis, són les oficials a Catalunya."
+                },
+                {
+                    "nom": "DECLARO2_EN",
+                    "valor": "2. The official date and time in the Register are what are officially used in Catalonia to calculate deadlines."
+                },
+                {
+                    "nom": "DECLARO2_ES",
+                    "valor": "2. La fecha y hora oficiales del Registro, a efectos del cómputo de plazos, son las oficiales en Cataluña."
+                },
+                {
+                    "nom": "DECLARO2_OC",
+                    "valor": "2. Era data e ora oficiau deth Registre, per çò qu'ei dera computacion de tèrmes, son es oficiaus en Catalonha."
+                },
+                {
+                    "nom": "DECLARO3",
+                    "valor": "3. El termini perquè l'Administració de la Generalitat resolgui el procediment es calcula segons la normativa vigent del procediment administratiu. L'òrgan competent t'ha de comunicar la data exacta en què comença aquest termini."
+                },
+                {
+                    "nom": "DECLARO3_EN",
+                    "valor": "3. The time limit for the Administration of the Generalitat to resolve the procedure is calculated according to the current regulations on administrative procedure. The competent organisation must inform you of the exact date on which this period begins.\n"
+                },
+                {
+                    "nom": "DECLARO3_ES",
+                    "valor": "3. El plazo para que la Administración de la Generalitat de Cataluña resuelva el procedimiento se calcula según la normativa vigente del procedimiento administrativo. El órgano competente debe comunicarte la fecha exacta en que comienza este plazo."
+                },
+                {
+                    "nom": "DECLARO3_OC",
+                    "valor": "3. Eth tèrme entà qu'era Administracion dera Generalitat resòlve eth procediment se calcule segons era normativa en vigor deth procediment administratiu. Er organ competent t'a de comunicar era data exacta en que comence aguest tèrme."
+                },
+                {
+                    "nom": "DECLARO4",
+                    "valor": "4. La teva petició s'enviarà a l'ens destinatari que hagis indicat. Si en comptes d'un ens has triat una temàtica, s'enviarà a l'òrgan competent segons aquesta temàtica. Si no tries correctament l'ens o la temàtica, el primer registre que rebi la documentació la reenviarà a l'òrgan competent per resoldre la teva petició. En aquest cas, t'informarem del canvi i podràs consultar-lo a l'<a href='https://ovt.gencat.cat/carpetaciutadana360/mfe-main-app/' target='_blank'>Àrea privada</a>."
+                },
+                {
+                    "nom": "DECLARO4_EN",
+                    "valor": "4. Your request will be sent to the recipient organisation you have indicated. If instead of indicating an organisation, you have chosen a topic, it will be sent to the competent organisation according to this topic. If you do not correctly choose the organisation or topic, the first Register to receive the documentation will forward it to the competent organisation to resolve your request. In this case, we will inform you of the change and you will be able to consult it in the <a href='https://ovt.gencat.cat/carpetaciutadana360/mfe-main-app/' target='_blank'>Private Area</a>."
+                },
+                {
+                    "nom": "DECLARO4_ES",
+                    "valor": "4. Tu petición se enviará al ente destinatario que hayas indicado. Si en vez de un ente has elegido una temática, se enviará al órgano competente según esta temática. Si no eliges correctamente el ente o la temática, el primer registro que reciba la documentación la reenviará al órgano competente para resolver tu petición. En este caso, te informaremos del cambio y podrás consultarlo en el <a href='https://ovt.gencat.cat/carpetaciutadana360/mfe-main-app/' target='_blank'>Área privada</a>."
+                },
+                {
+                    "nom": "DECLARO4_OC",
+                    "valor": "4. Era tua peticion se manarà ar organisme destinatari qu'ages indicat. S'en torn d'un organisme as escuelhut ua tematica, se manarà ar organ competent segons aguesta tematica. Se non trigues corrèctament er organisme o era tematica, eth prumèr registre que recebe era documentacion la remanarà ar organ competent entà resòlver era tua peticion. En aguest cas, t'informaram deth cambiament e poderàs consultar-lo en  <a href='https://ovt.gencat.cat/carpetaciutadana360/mfe-main-app/' target='_blank'>Airau privat</a>."
+                },
+                {
+                    "nom": "DECLARO5",
+                    "valor": "5. Si la petició que presentes en el Registre té un formulari en línia específic a Tràmits gencat, l'òrgan competent per resoldre-la et pot requerir que facis la tramitació amb aquest formulari específic o que completis la informació que no hagis aportat. També et comunicarà el termini per resoldre-la. "
+                },
+                {
+                    "nom": "DECLARO5_EN",
+                    "valor": "5. If the request you submit to the Register has a specific online form in gencat Procedures, the organisation responsible for resolving it may require you to carry out this procedure using the specific form or to complete any information that you have not provided. It will also inform you of the deadline for resolving this. "
+                },
+                {
+                    "nom": "DECLARO5_ES",
+                    "valor": "5. Si la petición que presentas en el Registro tiene un formulario en línea específico en Trámites gencat, el órgano competente para resolverla puede requerirte que hagas la tramitación con este formulario específico o que completes la información que no hayas aportado. También te comunicará el plazo para resolverla."
+                },
+                {
+                    "nom": "DECLARO5_OC",
+                    "valor": "5. S'era peticion que presentes en Registre a un formulari en linha especific en Tramits gencat, er organ competent entà resolver-la te pòt requerir que hèsques era procedura damb aguest formulari especific o que complètes era informacion que non ages aportat. Tanben te comunicarà eth tèrme entà resolver-la. "
+                },
+                {
+                    "nom": "GDPR_CA",
+                    "valor": "<p><b>Tractament: </b>Serveis i tràmits Gencat.</p><p><b>Responsable:</b> Direcció General de Serveis Digitals i Experiència Ciutadana.</p><p><b>Finalitat:</b> garantir la traçabilitat de totes les gestions que la ciutadania fa amb l'Administració de la Generalitat de Catalunya, a través de la plataforma corporativa Gencat serveis i tràmits.</p><p><b>Drets de les persones interessades: </b>sol·licitar accedir a les teves dades, rectificar-les o suprimir-les, així com oposar-te al tractament o limitar-lo quan sigui procedent. El procediment per exercir aquests drets està disponible al <a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/drets-de-les-persones-interessades/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>web del Departament de la Presidència</u></a>.</p><p><b>Més informació: </b><a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/informacio-detallada-tractaments/llistat-alfabetic/120-serveis-tramits/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>informació detallada del tractament</u></a>.</p>"
+                },
+                {
+                    "nom": "GDPR_EN",
+                    "valor": "<p><b>Processing: </b>Gencat services and procedures.</p><p><b>Data controller: </b>Directorate General for Digital Services and Citizen Experience.</p><p><b>Purpose:</b> guarantee the traceability of all the procedures that citizens carry out with the Administration of the Generalitat de Catalunya, through the corporate platform for Gencat services and procedures.</p><p><b>Rights of data subjects: </b>request access to your data, rectify or delete it, as well as object or restrict its processing where appropriate. The procedure for exercising these rights is available on the website <a href=\"https://web.gencat.cat/en/generalitat/com-ens-organitzem/departaments/presidencia/proteccio-dades\" rel=\"noopener noreferrer\" target=\"_blank\"><u>of the Ministry of the Presidency</u></a>.</p><p><b>Further information: </b><a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/informacio-detallada-tractaments/llistat-alfabetic/120-serveis-tramits#googtrans(ca|en)\" rel=\"noopener noreferrer\" target=\"_blank\"><u>detailed processing information</u></a>.</p>"
+                },
+                {
+                    "nom": "GDPR_ES",
+                    "valor": "<p><b>Tratamiento: </b>Servicios y trámites Gencat.</p><p><b>Responsable:</b> Dirección General de Servicios Digitales y Experiencia Ciudadana.</p><p><b>Finalidad:</b> garantizar la trazabilidad de todas las gestiones que la ciudadanía lleva a cabo con la Administración de la Generalitat de Catalunya, a través de la plataforma corporativa Gencat servicios y trámites.</p><p><b>Derechos de las personas interesadas:</b> solicitar acceder a tus datos, rectificarlos o suprimirlos, así como oponerte al tratamiento o limitarlo cuando sea procedente. El procedimiento para ejercer estos derechos está disponible en el <a href=\"https://web.gencat.cat/es/generalitat/com-ens-organitzem/departaments/presidencia/proteccio-dades\" rel=\"noopener noreferrer\" target=\"_blank\"><u>web del Departamento de la Presidencia</u></a>.</p><p><b>Más información: </b><a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/informacio-detallada-tractaments/llistat-alfabetic/120-serveis-tramits#googtrans(ca|es)\" rel=\"noopener noreferrer\" target=\"_blank\"><u>información detallada del tratamiento</u></a>.</p>"
+                },
+                {
+                    "nom": "GDPR_OC",
+                    "valor": "<p><b>Tractament: </b>servicis e tramits Gencat.</p><p><b>Responsable:</b> Direccion Generau de Servicis Digitaus e Experiéncia Ciutadana.</p><p><b>Finalitat:</b> garentir era traçabilitat de totes es gestions qu'era ciutadanetat hè damb era Administracion dera Generalitat de Catalonha, a trauès dera plataforma corporativa Gencat servicis e tramits.</p><p><b>Drets des persones interessades: </b>sollicitar accedir as tues donades, rectificar-les o suprimir-les, atau coma opausar-te ath tractament o limitar-lo quan sigue de besonh. Eth procediment entà exercir aguesti drets ei disponible en <a href=\"https://web.gencat.cat/ca/generalitat/com-ens-organitzem/departaments/presidencia/proteccio-dades\" rel=\"noopener noreferrer\" target=\"_blank\"><u>web deth Departament dera Presidéncia</u></a>.</p><p><b>Mès informacion: </b><a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/informacio-detallada-tractaments/llistat-alfabetic/120-serveis-tramits/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>informacion detalhada deth tractament</u></a>.</p>"
+                }
+            ],
+            "ProteccioDades": {
+                "titol": "Informació bàsica sobre protecció de dades",
+                "descripcio": "<p><b>Tractament: </b>Serveis i tràmits Gencat.</p><p><b>Responsable:</b> Direcció General de Serveis Digitals i Experiència Ciutadana.</p><p><b>Finalitat:</b> garantir la traçabilitat de totes les gestions que la ciutadania fa amb l'Administració de la Generalitat de Catalunya, a través de la plataforma corporativa Gencat serveis i tràmits.</p><p><b>Drets de les persones interessades: </b>sol·licitar accedir a les teves dades, rectificar-les o suprimir-les, així com oposar-te al tractament o limitar-lo quan sigui procedent. El procediment per exercir aquests drets està disponible al <a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/drets-de-les-persones-interessades/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>web del Departament de la Presidència</u></a>.</p><p><b>Més informació: </b><a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/informacio-detallada-tractaments/llistat-alfabetic/120-serveis-tramits/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>informació detallada del tractament</u></a>.</p>"
+            },
+            "tipusSignatari": "0",
+            "tipusSignatura": "0",
+            "tipusPresentador": "3"
+        },
+        "Cos": {
+            "Requeridor": {
+                "tipusUsuari": "particular",
+                "validarRepresentacio": false,
+                "Persona": {
+                    "Particular": {
+                        "esSignatari": false,
+                        "nom": "ALEJANDRO Jezus",
+                        "primerCognom": "Guerrero Peña",
+                        "Document": {
+                            "tipusdoc": "nif",
+                            "PaisDocument": {
+                                "codiINE": "ES",
+                                "nom": "Espanya"
+                            },
+                            "identificador": "53693017T",
+                            "DORIdentificador": "DNI 53693017T"
+                        },
+                        "DadesContacte": {
+                            "Adreca": {
+                                "normalitzada": false,
+                                "Localitat": {
+                                    "Pais": {
+                                        "codiINE": "101",
+                                        "nom": "Albània"
+                                    },
+                                    "DORAdrecaLocalitat": "  (Albània)"
+                                },
+                                "nomVia": "plaza de la locura",
+                                "DORAdrecaInfo": "plaza de la locura"
+                            },
+                            "telefonMobil": "+346542123456",
+                            "adrecaElectronica": "a.guerrero.penalver@accenture.com",
+                            "DORContacte": "a.guerrero.penalver@accenture.com, +346542123456"
+                        },
+                        "rolAcreditacio": "1",
+                        "DORNomCognoms": "ALEJANDRO Jezus Guerrero Peña"
+                    }
+                }
+            },
+            "InfoServei": {
+                "volRebreAvisos": "false",
+                "DadesPersona": {
+                    "tipusUsuari": "particular",
+                    "validarRepresentacio": false,
+                    "Persona": {
+                        "Particular": {
+                            "esSignatari": false,
+                            "nom": "ALEJANDRO Jezus",
+                            "primerCognom": "Guerrero Peña",
+                            "Document": {
+                                "tipusdoc": "nif",
+                                "PaisDocument": {
+                                    "codiINE": "ES",
+                                    "nom": "Espanya"
+                                },
+                                "identificador": "53693017T",
+                                "DORIdentificador": "DNI 53693017T"
+                            },
+                            "DadesContacte": {
+                                "Adreca": {
+                                    "normalitzada": false,
+                                    "Localitat": {
+                                        "Pais": {
+                                            "codiINE": "101",
+                                            "nom": "Albània"
+                                        }
+                                    },
+                                    "nomVia": "plaza de la locura"
+                                },
+                                "telefonMobil": "+346542123456",
+                                "adrecaElectronica": "a.guerrero.penalver@accenture.com"
+                            },
+                            "rolAcreditacio": "1",
+                            "DORNomCognoms": "ALEJANDRO JESUS GUERRERO PEÑALVER"
+                        }
+                    }
+                }
+            },
+            "Contingut": {
+                "DadesParticulars": {
+                    "Info": {
+                        "DadesDeCBO": "true",
+                        "Assumpte": "asfa"
+                    },
+                    "gsitPersonaContacte": {
+                        "id": "1",
+                        "nom": "Persona sol·licitant"
+                    }
+                }
+            },
+            "Gestio": {
+                "ClassificacioGC": {
+                    "permetreAccesAnonimInteraccio": true
+                },
+                "ClassificacionsRegistrals": {
+                    "tipusAssentament": "entrada",
+                    "ClassificacioRegistral": {
+                        "PeticioRegistre": {
+                            "assumpte": "asfa",
+                            "idViaPresentacio": 18,
+                            "idTipusTramesa": 1,
+                            "DadesPersona": {
+                                "PersonaFisica": {
+                                    "nom": "ALEJANDRO Jezus",
+                                    "cognom1": "Guerrero Peña"
+                                }
+                            },
+                            "DadesPoblacioProc": {
+                                "DadesPoblacioEstrangerProc": {
+                                    "paisEstrangerProc": "AL"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "Interoperabilitat": {
+                "autoritzacio": false,
+                "oposicio": false
+            }
+        }
+    }
+}
