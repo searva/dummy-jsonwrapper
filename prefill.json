@@ -9,171 +9,41 @@
                 "codi": "HTML",
                 "nom": "Petició genèrica sense signatura electrònica"
             },
-            "versioNegoci": "202501",
+            "versioNegoci": "202001",
             "idioma": "ca_ES",
-            "urlWebService": "https://configuracio.ovt.gencat.cat/gsitgf/AppJava/services/GestorFormularis?wsdl",
-            "urlSubmit": "https://configuracio.ovt.gencat.cat/gsit-gateway/AppJava/api/tramits/html/",
-            "urlLlistes": "https://configuracio.ovt.gencat.cat/gsit-gateway/AppJava/api/mestres/",
+            "urlWebService": "https://integracio.ovt.gencat.cat/gsitgf/AppJava/services/GestorFormularis?wsdl",
+            "urlSubmit": "https://integracio.ovt.gencat.cat/gsit-gateway/AppJava/api/tramits/html/",
+            "urlLlistes": "https://integracio.ovt.gencat.cat/gsit-gateway/AppJava/api/mestres/",
             "Pagaments": {
                 "Disponibles": []
             },
-            "Adjunts": [
-                {
-                    "rol": "INGA001",
-                    "descripcio": "Informació addicional (document I)",
-                    "tamanyMaxim": "20000",
-                    "format": "7z;doc;docx;gif;jpg;ods;odt;pdf;rar;xls;xlsx;zip",
-                    "opcional": "1",
-                    "interoperabilitat": false,
-                    "interoperabilitatObligatori": true,
-                    "interoperabilitatTipus": "OPO"
-                },
-                {
-                    "rol": "INGA002",
-                    "descripcio": "Informació addicional (document II)",
-                    "tamanyMaxim": "20000",
-                    "format": "7z;doc;docx;gif;jpg;ods;odt;pdf;rar;xls;xlsx;zip",
-                    "opcional": "1",
-                    "interoperabilitat": false,
-                    "interoperabilitatObligatori": true,
-                    "interoperabilitatTipus": "OPO"
-                },
-                {
-                    "rol": "INGA003",
-                    "descripcio": "Informació addicional (document III)",
-                    "tamanyMaxim": "20000",
-                    "format": "jpg;docx;xls;xlsx;rar;zip;7z;gif;pdf;doc;ods;odt",
-                    "opcional": "1",
-                    "interoperabilitat": false,
-                    "interoperabilitatObligatori": true,
-                    "interoperabilitatTipus": "OPO"
-                },
-                {
-                    "rol": "40",
-                    "descripcio": "Informació addicional (document IV)",
-                    "tamanyMaxim": "20000",
-                    "format": "jpg;pdf;docx;xls;xlsx;rar;zip;7z;gif;doc;ods;odt",
-                    "opcional": "1",
-                    "interoperabilitat": false,
-                    "interoperabilitatObligatori": true,
-                    "interoperabilitatTipus": "OPO"
-                },
-                {
-                    "rol": "INGA005",
-                    "descripcio": "Informació addicional (document V)",
-                    "tamanyMaxim": "20000",
-                    "format": "jpg;pdf;docx;xls;xlsx;rar;zip;7z;gif;doc;ods;odt",
-                    "opcional": "1",
-                    "interoperabilitat": false,
-                    "interoperabilitatObligatori": true,
-                    "interoperabilitatTipus": "OPO"
-                }
-            ],
+            "Adjunts": [ ],
             "canal": "internet",
             "obligaSign": false,
             "ParametresDinamics": [
                 {
-                    "nom": "DECLARO1",
-                    "valor": "1. El Registre general electrònic de l'Administració de la Generalitat emet de manera automàtica un rebut de registre de la documentació i una còpia de l'escrit, sol·licitud o comunicació que has presentat. Al rebut de registre pots trobar la referència o codi del registre d'entrada i la data oficial de presentació de la documentació."
-                },
-                {
-                    "nom": "DECLARO1_EN",
-                    "valor": "1. The General Electronic Register of the Administration of the Generalitat automatically issues a registration receipt for the documentation and a copy of the letter, request or communication that you have submitted. On the registration receipt you can find the reference number or code of the record of entry and the official date of submission of the documentation."
-                },
-                {
-                    "nom": "DECLARO1_ES",
-                    "valor": "1. El Registro general electrónico de la Administración de la Generalitat de Cataluña emite de forma automática un recibo de registro de la documentación y una copia del escrito, solicitud o comunicación que has presentado. En el recibo de registro puedes encontrar la referencia o código del registro de entrada y la fecha oficial de presentación de la documentación."
-                },
-                {
-                    "nom": "DECLARO1_OC",
-                    "valor": "1. Eth Registre generau electronic dera Administracion dera Generalitat emet de manèra automatica un recebut de registre dera documentacion e ua còpia der escrit, sollicitacion o comunicacion qu'as presentat. En recebut de registre pòdes trobar era referéncia o còdi deth registre d'entrada e era data oficiau de presentacion dera documentacion."
-                },
-                {
-                    "nom": "DECLARO2",
-                    "valor": "2. La data i hora oficials del Registre, a l'efecte del còmput de terminis, són les oficials a Catalunya."
-                },
-                {
-                    "nom": "DECLARO2_EN",
-                    "valor": "2. The official date and time in the Register are what are officially used in Catalonia to calculate deadlines."
-                },
-                {
-                    "nom": "DECLARO2_ES",
-                    "valor": "2. La fecha y hora oficiales del Registro, a efectos del cómputo de plazos, son las oficiales en Cataluña."
-                },
-                {
-                    "nom": "DECLARO2_OC",
-                    "valor": "2. Era data e ora oficiau deth Registre, per çò qu'ei dera computacion de tèrmes, son es oficiaus en Catalonha."
-                },
-                {
-                    "nom": "DECLARO3",
-                    "valor": "3. El termini perquè l'Administració de la Generalitat resolgui el procediment es calcula segons la normativa vigent del procediment administratiu. L'òrgan competent t'ha de comunicar la data exacta en què comença aquest termini."
-                },
-                {
-                    "nom": "DECLARO3_EN",
-                    "valor": "3. The time limit for the Administration of the Generalitat to resolve the procedure is calculated according to the current regulations on administrative procedure. The competent organisation must inform you of the exact date on which this period begins.\n"
-                },
-                {
-                    "nom": "DECLARO3_ES",
-                    "valor": "3. El plazo para que la Administración de la Generalitat de Cataluña resuelva el procedimiento se calcula según la normativa vigente del procedimiento administrativo. El órgano competente debe comunicarte la fecha exacta en que comienza este plazo."
-                },
-                {
-                    "nom": "DECLARO3_OC",
-                    "valor": "3. Eth tèrme entà qu'era Administracion dera Generalitat resòlve eth procediment se calcule segons era normativa en vigor deth procediment administratiu. Er organ competent t'a de comunicar era data exacta en que comence aguest tèrme."
-                },
-                {
-                    "nom": "DECLARO4",
-                    "valor": "4. La teva petició s'enviarà a l'ens destinatari que hagis indicat. Si en comptes d'un ens has triat una temàtica, s'enviarà a l'òrgan competent segons aquesta temàtica. Si no tries correctament l'ens o la temàtica, el primer registre que rebi la documentació la reenviarà a l'òrgan competent per resoldre la teva petició. En aquest cas, t'informarem del canvi i podràs consultar-lo a l'<a href='https://ovt.gencat.cat/carpetaciutadana360/mfe-main-app/' target='_blank'>Àrea privada</a>."
-                },
-                {
-                    "nom": "DECLARO4_EN",
-                    "valor": "4. Your request will be sent to the recipient organisation you have indicated. If instead of indicating an organisation, you have chosen a topic, it will be sent to the competent organisation according to this topic. If you do not correctly choose the organisation or topic, the first Register to receive the documentation will forward it to the competent organisation to resolve your request. In this case, we will inform you of the change and you will be able to consult it in the <a href='https://ovt.gencat.cat/carpetaciutadana360/mfe-main-app/' target='_blank'>Private Area</a>."
-                },
-                {
-                    "nom": "DECLARO4_ES",
-                    "valor": "4. Tu petición se enviará al ente destinatario que hayas indicado. Si en vez de un ente has elegido una temática, se enviará al órgano competente según esta temática. Si no eliges correctamente el ente o la temática, el primer registro que reciba la documentación la reenviará al órgano competente para resolver tu petición. En este caso, te informaremos del cambio y podrás consultarlo en el <a href='https://ovt.gencat.cat/carpetaciutadana360/mfe-main-app/' target='_blank'>Área privada</a>."
-                },
-                {
-                    "nom": "DECLARO4_OC",
-                    "valor": "4. Era tua peticion se manarà ar organisme destinatari qu'ages indicat. S'en torn d'un organisme as escuelhut ua tematica, se manarà ar organ competent segons aguesta tematica. Se non trigues corrèctament er organisme o era tematica, eth prumèr registre que recebe era documentacion la remanarà ar organ competent entà resòlver era tua peticion. En aguest cas, t'informaram deth cambiament e poderàs consultar-lo en  <a href='https://ovt.gencat.cat/carpetaciutadana360/mfe-main-app/' target='_blank'>Airau privat</a>."
-                },
-                {
-                    "nom": "DECLARO5",
-                    "valor": "5. Si la petició que presentes en el Registre té un formulari en línia específic a Tràmits gencat, l'òrgan competent per resoldre-la et pot requerir que facis la tramitació amb aquest formulari específic o que completis la informació que no hagis aportat. També et comunicarà el termini per resoldre-la. "
-                },
-                {
-                    "nom": "DECLARO5_EN",
-                    "valor": "5. If the request you submit to the Register has a specific online form in gencat Procedures, the organisation responsible for resolving it may require you to carry out this procedure using the specific form or to complete any information that you have not provided. It will also inform you of the deadline for resolving this. "
-                },
-                {
-                    "nom": "DECLARO5_ES",
-                    "valor": "5. Si la petición que presentas en el Registro tiene un formulario en línea específico en Trámites gencat, el órgano competente para resolverla puede requerirte que hagas la tramitación con este formulario específico o que completes la información que no hayas aportado. También te comunicará el plazo para resolverla."
-                },
-                {
-                    "nom": "DECLARO5_OC",
-                    "valor": "5. S'era peticion que presentes en Registre a un formulari en linha especific en Tramits gencat, er organ competent entà resolver-la te pòt requerir que hèsques era procedura damb aguest formulari especific o que complètes era informacion que non ages aportat. Tanben te comunicarà eth tèrme entà resolver-la. "
-                },
-                {
                     "nom": "GDPR_CA",
-                    "valor": "<p><b>Tractament: </b>Serveis i tràmits Gencat.</p><p><b>Responsable:</b> Direcció General de Serveis Digitals i Experiència Ciutadana.</p><p><b>Finalitat:</b> garantir la traçabilitat de totes les gestions que la ciutadania fa amb l'Administració de la Generalitat de Catalunya, a través de la plataforma corporativa Gencat serveis i tràmits.</p><p><b>Drets de les persones interessades: </b>sol·licitar accedir a les teves dades, rectificar-les o suprimir-les, així com oposar-te al tractament o limitar-lo quan sigui procedent. El procediment per exercir aquests drets està disponible al <a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/drets-de-les-persones-interessades/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>web del Departament de la Presidència</u></a>.</p><p><b>Més informació: </b><a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/informacio-detallada-tractaments/llistat-alfabetic/120-serveis-tramits/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>informació detallada del tractament</u></a>.</p>"
+                    "valor": "<b>Tractament:</b> serveis i tràmits gencat\r\n<b>Responsable:</b> Direcció General d'Atenció Ciutadana\r\n<b>Finalitat:</b> garantir la traçabilitat de les gestions que la ciutadania realitza amb la Generalitat de Catalunya, mitjançant la plataforma corporativa Gencat Serveis i Tràmits\r\n<b>Legitimació:</b> interès públic o exercici de poders públics \r\n<b>Destinataris:</b> departaments de la Generalitat i entitats que en depenen per a la gestió dels serveis públics, i encarregats de tractament que proveeixen els serveis TIC\r\n<b>Drets:</b> sol·licitar l'accés, rectificació o supressió de les dades, i la limitació o oposició al tractament. Per exercir aquest drets, més informació a <a href='http://economia.gencat.cat/drets' target='_blank'>economia.gencat.cat/drets</a>\r\n<b>Més informació:</b> <a href='http://economia.gencat.cat/serveis-tramits' target='_blank'>economia.gencat.cat/serveis-tramits</a>"
                 },
                 {
                     "nom": "GDPR_EN",
-                    "valor": "<p><b>Processing: </b>Gencat services and procedures.</p><p><b>Data controller: </b>Directorate General for Digital Services and Citizen Experience.</p><p><b>Purpose:</b> guarantee the traceability of all the procedures that citizens carry out with the Administration of the Generalitat de Catalunya, through the corporate platform for Gencat services and procedures.</p><p><b>Rights of data subjects: </b>request access to your data, rectify or delete it, as well as object or restrict its processing where appropriate. The procedure for exercising these rights is available on the website <a href=\"https://web.gencat.cat/en/generalitat/com-ens-organitzem/departaments/presidencia/proteccio-dades\" rel=\"noopener noreferrer\" target=\"_blank\"><u>of the Ministry of the Presidency</u></a>.</p><p><b>Further information: </b><a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/informacio-detallada-tractaments/llistat-alfabetic/120-serveis-tramits#googtrans(ca|en)\" rel=\"noopener noreferrer\" target=\"_blank\"><u>detailed processing information</u></a>.</p>"
+                    "valor": "<b>Processing:</b> gencat services and procedures\r\n<b>Data controller:</b> Directorate General for Citizen Attention\r\n<b>Purpose:</b> to guarantee traceability of the procedures carried out between the general public and the Government of Catalonia by means of its corporate platform, Gencat Services and Procedures.\r\n<b>Legitimisation:</b> public interest or the exercise of public powers.\r\n<b>Recipients:</b> ministries of the Government of Catalonia and the associated entities that report to it for the management of the different public services, and processing managers who provide ICT services.\r\n<b>Rights:</b> to request access, rectification or erasure of the data, and the restriction or opposition of its treatment. To exercise these rights, further information in <a href='http://economia.gencat.cat/drets' target='_blank'>economia.gencat.cat/drets</a>\r\n<b>Additional information:</b> <a href='http://economia.gencat.cat/serveis-tramits' target='_blank'>economia.gencat.cat/serveis-tramits</a>"
                 },
                 {
                     "nom": "GDPR_ES",
-                    "valor": "<p><b>Tratamiento: </b>Servicios y trámites Gencat.</p><p><b>Responsable:</b> Dirección General de Servicios Digitales y Experiencia Ciudadana.</p><p><b>Finalidad:</b> garantizar la trazabilidad de todas las gestiones que la ciudadanía lleva a cabo con la Administración de la Generalitat de Catalunya, a través de la plataforma corporativa Gencat servicios y trámites.</p><p><b>Derechos de las personas interesadas:</b> solicitar acceder a tus datos, rectificarlos o suprimirlos, así como oponerte al tratamiento o limitarlo cuando sea procedente. El procedimiento para ejercer estos derechos está disponible en el <a href=\"https://web.gencat.cat/es/generalitat/com-ens-organitzem/departaments/presidencia/proteccio-dades\" rel=\"noopener noreferrer\" target=\"_blank\"><u>web del Departamento de la Presidencia</u></a>.</p><p><b>Más información: </b><a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/informacio-detallada-tractaments/llistat-alfabetic/120-serveis-tramits#googtrans(ca|es)\" rel=\"noopener noreferrer\" target=\"_blank\"><u>información detallada del tratamiento</u></a>.</p>"
+                    "valor": "<b>Tratamiento:</b> servicios y trámites gencat\r\n<b>Responsable:</b> Dirección General de Atención Ciudadana\r\n<b>Finalidad:</b> garantizar la trazabilidad de las gestiones que la ciudadanía realiza con la Generalitat de Catalunya, mediante la plataforma corporativa Gencat Servicios y Trámites\r\n<b>Legitimación:</b> interés público o ejercicio de poderes públicos\r\n<b>Destinatarios:</b> departamentos de la Generalitat y entidades que dependan de éstos para la gestión de los servicios públicos, y encargados de tratamiento que provean los servicios TIC\r\n<b>Derechos:</b> solicitar el acceso, rectificación o supresión de los datos, y la limitación u oposición al tratamiento. Para ejercer estos derechos, más información en <a href='http://economia.gencat.cat/drets' target='_blank'>economia.gencat.cat/drets</a>\r\n<b>Más información:</b> <a href='http://economia.gencat.cat/serveis-tramits' target='_blank'>economia.gencat.cat/serveis-tramits</a>"
                 },
                 {
                     "nom": "GDPR_OC",
-                    "valor": "<p><b>Tractament: </b>servicis e tramits Gencat.</p><p><b>Responsable:</b> Direccion Generau de Servicis Digitaus e Experiéncia Ciutadana.</p><p><b>Finalitat:</b> garentir era traçabilitat de totes es gestions qu'era ciutadanetat hè damb era Administracion dera Generalitat de Catalonha, a trauès dera plataforma corporativa Gencat servicis e tramits.</p><p><b>Drets des persones interessades: </b>sollicitar accedir as tues donades, rectificar-les o suprimir-les, atau coma opausar-te ath tractament o limitar-lo quan sigue de besonh. Eth procediment entà exercir aguesti drets ei disponible en <a href=\"https://web.gencat.cat/ca/generalitat/com-ens-organitzem/departaments/presidencia/proteccio-dades\" rel=\"noopener noreferrer\" target=\"_blank\"><u>web deth Departament dera Presidéncia</u></a>.</p><p><b>Mès informacion: </b><a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/informacio-detallada-tractaments/llistat-alfabetic/120-serveis-tramits/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>informacion detalhada deth tractament</u></a>.</p>"
+                    "valor": "<b>Tractament:</b> servicis e tramits gencat\r\n<b>Responsable:</b> Direccion Generau d'Atencion Ciutadana\r\n<b>Finalitat:</b> garantir era traçabilitat des gestions qu'era ciutadania realize damb era Generalitat de Catalonha, mejançant era plataforma corporativa gencat Servicis e Tramits\r\n<b>Legitimacion:</b> interès public o exercici de poders publics\r\n<b>Destinataris:</b> departaments dera Generalitat e entitats que ne depenen entara gestion des servicis publics, e encargadi de tractament que provedissen es servicis TIC.\r\n<b>Drets:</b> sollicitar l'accès, rectificacion o supression des donades, e era limitacion o oposicion ath tractament. Per exercir aguesti drets, mès informacion a <a href='http://economia.gencat.cat/drets' target='_blank'>economia.gencat.cat/drets</a>\r\n<b>Informacion addicionala:</b> <a href='http://economia.gencat.cat/serveis-tramits' target='_blank'>economia.gencat.cat/serveis-tramits</a>"
                 }
             ],
             "ProteccioDades": {
                 "titol": "Informació bàsica sobre protecció de dades",
-                "descripcio": "<p><b>Tractament: </b>Serveis i tràmits Gencat.</p><p><b>Responsable:</b> Direcció General de Serveis Digitals i Experiència Ciutadana.</p><p><b>Finalitat:</b> garantir la traçabilitat de totes les gestions que la ciutadania fa amb l'Administració de la Generalitat de Catalunya, a través de la plataforma corporativa Gencat serveis i tràmits.</p><p><b>Drets de les persones interessades: </b>sol·licitar accedir a les teves dades, rectificar-les o suprimir-les, així com oposar-te al tractament o limitar-lo quan sigui procedent. El procediment per exercir aquests drets està disponible al <a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/drets-de-les-persones-interessades/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>web del Departament de la Presidència</u></a>.</p><p><b>Més informació: </b><a href=\"https://presidencia.gencat.cat/ca/el_departament/proteccio-dades/informacio-detallada-tractaments/llistat-alfabetic/120-serveis-tramits/\" rel=\"noopener noreferrer\" target=\"_blank\"><u>informació detallada del tractament</u></a>.</p>"
+                "descripcio": "<b>Tractament:</b> serveis i tràmits gencat\r\n<b>Responsable:</b> Direcció General d'Atenció Ciutadana\r\n<b>Finalitat:</b> garantir la traçabilitat de les gestions que la ciutadania realitza amb la Generalitat de Catalunya, mitjançant la plataforma corporativa Gencat Serveis i Tràmits\r\n<b>Legitimació:</b> interès públic o exercici de poders públics \r\n<b>Destinataris:</b> departaments de la Generalitat i entitats que en depenen per a la gestió dels serveis públics, i encarregats de tractament que proveeixen els serveis TIC\r\n<b>Drets:</b> sol·licitar l'accés, rectificació o supressió de les dades, i la limitació o oposició al tractament. Per exercir aquest drets, més informació a <a href='http://economia.gencat.cat/drets' target='_blank'>economia.gencat.cat/drets</a>\r\n<b>Més informació:</b> <a href='http://economia.gencat.cat/serveis-tramits' target='_blank'>economia.gencat.cat/serveis-tramits</a>"
             },
             "tipusSignatari": "0",
+            "nomConcatenat": "PERSONADE LA PEÇADE PROVES",
             "tipusSignatura": "0",
             "tipusPresentador": "3"
         },
