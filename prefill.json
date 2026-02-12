@@ -17,7 +17,22 @@
             "Pagaments": {
                 "Disponibles": []
             },
-            "Adjunts": [ ],
+            "Adjunts": [
+                {
+                    "rol": "INGA001",
+                    "descripcio": "Informació addicional (document I)",
+                    "tamanyMaxim": "4000",
+                    "format": "pdf;gif;jpg;rar;zip;doc;docx;xls;xlsx;odt;ods;7z",
+                    "opcional": "1"
+                },
+                {
+                    "rol": "INGA002",
+                    "descripcio": "Informació addicional (document II)",
+                    "tamanyMaxim": "4000",
+                    "format": "pdf;gif;jpg;zip;rar;doc;docx;xls;xlsx;odt;ods;7z",
+                    "opcional": "1"
+                }
+            ],
             "canal": "internet",
             "obligaSign": false,
             "ParametresDinamics": [
@@ -50,78 +65,182 @@
         "Cos": {
             "Requeridor": {
                 "tipusUsuari": "particular",
-                "validarRepresentacio": false,
                 "Persona": {
                     "Particular": {
-                        "esSignatari": false,
-                        "nom": "ALEJANDRO Jezus",
-                        "primerCognom": "Guerrero Peña",
+                        "esSignatari": true,
+                        "nom": "Persona",
+                        "primerCognom": "de la Peça",
+                        "segonCognom": "de Proves",
                         "Document": {
                             "tipusdoc": "nif",
                             "PaisDocument": {
                                 "codiINE": "ES",
                                 "nom": "Espanya"
                             },
-                            "identificador": "53693017T",
-                            "DORIdentificador": "DNI 53693017T"
+                            "identificador": "00000000T"
                         },
                         "DadesContacte": {
                             "Adreca": {
                                 "normalitzada": false,
                                 "Localitat": {
                                     "Pais": {
-                                        "codiINE": "101",
-                                        "nom": "Albània"
+                                        "codiINE": "108",
+                                        "nom": "Espanya"
                                     },
-                                    "DORAdrecaLocalitat": "  (Albània)"
+                                    "Provincia": {
+                                        "codiINE": "25",
+                                        "nom": "Lleida"
+                                    },
+                                    "Comarca": {
+                                        "codiINE": "05",
+                                        "nom": "Alta Ribagorça"
+                                    },
+                                    "Municipi": {
+                                        "codiINE": "25043",
+                                        "nom": "la Vall de Boí"
+                                    },
+                                    "codiPostal": "25527"
                                 },
-                                "nomVia": "plaza de la locura",
-                                "DORAdrecaInfo": "plaza de la locura"
+                                "UnitatPoblacional": {
+                                    "codiINE": "25043000100",
+                                    "nom": "Barruera"
+                                },
+                                "TipusVia": {
+                                    "codiArvato": "CA",
+                                    "descripcio": "Carrer"
+                                },
+                                "nomVia": "nada",
+                                "numero": "1"
                             },
-                            "telefonMobil": "+346542123456",
-                            "adrecaElectronica": "a.guerrero.penalver@accenture.com",
-                            "DORContacte": "a.guerrero.penalver@accenture.com, +346542123456"
+                            "telefonMobil": "0034666084355",
+                            "adrecaElectronica": "tecnic.ott.operacions22@gencat.cat"
                         },
-                        "rolAcreditacio": "1",
-                        "DORNomCognoms": "ALEJANDRO Jezus Guerrero Peña"
+                        "genere": "H",
+                        "DadesNaixement": {
+                            "dataNaixement": "1970-01-21"
+                        },
+                        "rolAcreditacio": "1"
+                    }
+                }
+            },
+            "Presentador": {
+                "tipusUsuari": "particular",
+                "Persona": {
+                    "Particular": {
+                        "esSignatari": true,
+                        "nom": "Persona",
+                        "primerCognom": "de la Peça",
+                        "segonCognom": "de Proves",
+                        "Document": {
+                            "tipusdoc": "nif",
+                            "PaisDocument": {
+                                "codiINE": "ES",
+                                "nom": "Espanya"
+                            },
+                            "identificador": "00000000T"
+                        },
+                        "DadesContacte": {
+                            "Adreca": {
+                                "normalitzada": false,
+                                "Localitat": {
+                                    "Pais": {
+                                        "codiINE": "108",
+                                        "nom": "Espanya"
+                                    },
+                                    "Provincia": {
+                                        "codiINE": "25",
+                                        "nom": "Lleida"
+                                    },
+                                    "Comarca": {
+                                        "codiINE": "05",
+                                        "nom": "Alta Ribagorça"
+                                    },
+                                    "Municipi": {
+                                        "codiINE": "25043",
+                                        "nom": "la Vall de Boí"
+                                    },
+                                    "codiPostal": "25527"
+                                },
+                                "UnitatPoblacional": {
+                                    "codiINE": "25043000100",
+                                    "nom": "Barruera"
+                                },
+                                "TipusVia": {
+                                    "codiArvato": "CA",
+                                    "descripcio": "Carrer"
+                                },
+                                "nomVia": "nada",
+                                "numero": "1"
+                            },
+                            "telefonMobil": "0034666084355",
+                            "adrecaElectronica": "tecnic.ott.operacions22@gencat.cat"
+                        },
+                        "genere": "H",
+                        "DadesNaixement": {
+                            "dataNaixement": "1970-01-21"
+                        },
+                        "rolAcreditacio": "1"
                     }
                 }
             },
             "InfoServei": {
-                "volRebreAvisos": "false",
                 "DadesPersona": {
                     "tipusUsuari": "particular",
-                    "validarRepresentacio": false,
                     "Persona": {
                         "Particular": {
-                            "esSignatari": false,
-                            "nom": "ALEJANDRO Jezus",
-                            "primerCognom": "Guerrero Peña",
+                            "esSignatari": true,
+                            "nom": "Persona",
+                            "primerCognom": "de la Peça",
+                            "segonCognom": "de Proves",
                             "Document": {
                                 "tipusdoc": "nif",
                                 "PaisDocument": {
                                     "codiINE": "ES",
                                     "nom": "Espanya"
                                 },
-                                "identificador": "53693017T",
-                                "DORIdentificador": "DNI 53693017T"
+                                "identificador": "00000000T"
                             },
                             "DadesContacte": {
                                 "Adreca": {
                                     "normalitzada": false,
                                     "Localitat": {
                                         "Pais": {
-                                            "codiINE": "101",
-                                            "nom": "Albània"
-                                        }
+                                            "codiINE": "108",
+                                            "nom": "Espanya"
+                                        },
+                                        "Provincia": {
+                                            "codiINE": "25",
+                                            "nom": "Lleida"
+                                        },
+                                        "Comarca": {
+                                            "codiINE": "05",
+                                            "nom": "Alta Ribagorça"
+                                        },
+                                        "Municipi": {
+                                            "codiINE": "25043",
+                                            "nom": "la Vall de Boí"
+                                        },
+                                        "codiPostal": "25527"
                                     },
-                                    "nomVia": "plaza de la locura"
+                                    "UnitatPoblacional": {
+                                        "codiINE": "25043000100",
+                                        "nom": "Barruera"
+                                    },
+                                    "TipusVia": {
+                                        "codiArvato": "CA",
+                                        "descripcio": "Carrer"
+                                    },
+                                    "nomVia": "nada",
+                                    "numero": "1"
                                 },
-                                "telefonMobil": "+346542123456",
-                                "adrecaElectronica": "a.guerrero.penalver@accenture.com"
+                                "telefonMobil": "0034666084355",
+                                "adrecaElectronica": "tecnic.ott.operacions22@gencat.cat"
                             },
-                            "rolAcreditacio": "1",
-                            "DORNomCognoms": "ALEJANDRO JESUS GUERRERO PEÑALVER"
+                            "genere": "H",
+                            "DadesNaixement": {
+                                "dataNaixement": "1970-01-21"
+                            },
+                            "rolAcreditacio": "1"
                         }
                     }
                 }
