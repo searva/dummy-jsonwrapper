@@ -2,14 +2,14 @@
     "sollicitudGsit": {
         "DadesTramit": {
             "Tramit": {
-                "codi": "CLOUDS",
-                "nom": "Tràmit de prova"
+                "codi": "ING001",
+                "nom": "Instància Genèrica (Petició genèrica)"
             },
             "Modalitat": {
-                "codi": "IMPL",
-                "nom": "Tràmit de prova"
+                "codi": "HTML",
+                "nom": "Petició genèrica sense signatura electrònica"
             },
-            "versioNegoci": "092025",
+            "versioNegoci": "202001",
             "idioma": "ca_ES",
             "urlWebService": "https://integracio.ovt.gencat.cat/gsitgf/AppJava/services/GestorFormularis?wsdl",
             "urlSubmit": "https://integracio.ovt.gencat.cat/gsit-gateway/AppJava/api/tramits/html/",
@@ -17,18 +17,45 @@
             "Pagaments": {
                 "Disponibles": []
             },
-            "Adjunts": [],
+            "Adjunts": [
+                {
+                    "rol": "INGA001",
+                    "descripcio": "Informació addicional (document I)",
+                    "tamanyMaxim": "4000",
+                    "format": "pdf;gif;jpg;rar;zip;doc;docx;xls;xlsx;odt;ods;7z",
+                    "opcional": "1"
+                },
+                {
+                    "rol": "INGA002",
+                    "descripcio": "Informació addicional (document II)",
+                    "tamanyMaxim": "4000",
+                    "format": "pdf;gif;jpg;zip;rar;doc;docx;xls;xlsx;odt;ods;7z",
+                    "opcional": "1"
+                }
+            ],
             "canal": "internet",
             "obligaSign": false,
             "ParametresDinamics": [
                 {
                     "nom": "GDPR_CA",
-                    "valor": "<p><b>Identificació del tractament:</b> 'Serveis i tràmits gencat'</p><p><b>Responsable del tractament:</b> Direcció General d'Atenció Ciutadana. Departament de la Presidència.</p><p><b>Finalitat del tractament:</b> garantir la traçabilitat de totes les gestions que la ciutadania realitza amb l'Administració de la Generalitat de Catalunya, mitjançant la plataforma corporativa de la Generalitat Gencat Serveis i Tràmits.</p><p><b>Legitimació:</b> missió realitzada en interès públic o exercici de poders públics i consentiment de la persona interessada.</p><p><b>Destinataris:</b> es preveuen comunicacions de dades als departaments de la Generalitat i entitats vinculades que en depenen per a la gestió dels diferents serveis públics de la seva competència. Les dades també es comunicaran als encarregats de tractament que proveeixen els serveis TIC per compte del responsable del tractament.</p><p><b>Drets de les persones interessades:</b> sol·licitar l'accés, rectificació o supressió de les dades, i la limitació o oposició al tractament. Cal utilitzar els formularis disponibles a la pàgina web del Departament de la Presidència.</p><p><b>Informació addicional:</b> si voleu ampliar aquesta informació podeu consultar la informació addicional del tractament.</p>"
+                    "valor": "<b>Tractament:</b> serveis i tràmits gencat\r\n<b>Responsable:</b> Direcció General d'Atenció Ciutadana\r\n<b>Finalitat:</b> garantir la traçabilitat de les gestions que la ciutadania realitza amb la Generalitat de Catalunya, mitjançant la plataforma corporativa Gencat Serveis i Tràmits\r\n<b>Legitimació:</b> interès públic o exercici de poders públics \r\n<b>Destinataris:</b> departaments de la Generalitat i entitats que en depenen per a la gestió dels serveis públics, i encarregats de tractament que proveeixen els serveis TIC\r\n<b>Drets:</b> sol·licitar l'accés, rectificació o supressió de les dades, i la limitació o oposició al tractament. Per exercir aquest drets, més informació a <a href='http://economia.gencat.cat/drets' target='_blank'>economia.gencat.cat/drets</a>\r\n<b>Més informació:</b> <a href='http://economia.gencat.cat/serveis-tramits' target='_blank'>economia.gencat.cat/serveis-tramits</a>"
+                },
+                {
+                    "nom": "GDPR_EN",
+                    "valor": "<b>Processing:</b> gencat services and procedures\r\n<b>Data controller:</b> Directorate General for Citizen Attention\r\n<b>Purpose:</b> to guarantee traceability of the procedures carried out between the general public and the Government of Catalonia by means of its corporate platform, Gencat Services and Procedures.\r\n<b>Legitimisation:</b> public interest or the exercise of public powers.\r\n<b>Recipients:</b> ministries of the Government of Catalonia and the associated entities that report to it for the management of the different public services, and processing managers who provide ICT services.\r\n<b>Rights:</b> to request access, rectification or erasure of the data, and the restriction or opposition of its treatment. To exercise these rights, further information in <a href='http://economia.gencat.cat/drets' target='_blank'>economia.gencat.cat/drets</a>\r\n<b>Additional information:</b> <a href='http://economia.gencat.cat/serveis-tramits' target='_blank'>economia.gencat.cat/serveis-tramits</a>"
+                },
+                {
+                    "nom": "GDPR_ES",
+                    "valor": "<b>Tratamiento:</b> servicios y trámites gencat\r\n<b>Responsable:</b> Dirección General de Atención Ciudadana\r\n<b>Finalidad:</b> garantizar la trazabilidad de las gestiones que la ciudadanía realiza con la Generalitat de Catalunya, mediante la plataforma corporativa Gencat Servicios y Trámites\r\n<b>Legitimación:</b> interés público o ejercicio de poderes públicos\r\n<b>Destinatarios:</b> departamentos de la Generalitat y entidades que dependan de éstos para la gestión de los servicios públicos, y encargados de tratamiento que provean los servicios TIC\r\n<b>Derechos:</b> solicitar el acceso, rectificación o supresión de los datos, y la limitación u oposición al tratamiento. Para ejercer estos derechos, más información en <a href='http://economia.gencat.cat/drets' target='_blank'>economia.gencat.cat/drets</a>\r\n<b>Más información:</b> <a href='http://economia.gencat.cat/serveis-tramits' target='_blank'>economia.gencat.cat/serveis-tramits</a>"
+                },
+                {
+                    "nom": "GDPR_OC",
+                    "valor": "<b>Tractament:</b> servicis e tramits gencat\r\n<b>Responsable:</b> Direccion Generau d'Atencion Ciutadana\r\n<b>Finalitat:</b> garantir era traçabilitat des gestions qu'era ciutadania realize damb era Generalitat de Catalonha, mejançant era plataforma corporativa gencat Servicis e Tramits\r\n<b>Legitimacion:</b> interès public o exercici de poders publics\r\n<b>Destinataris:</b> departaments dera Generalitat e entitats que ne depenen entara gestion des servicis publics, e encargadi de tractament que provedissen es servicis TIC.\r\n<b>Drets:</b> sollicitar l'accès, rectificacion o supression des donades, e era limitacion o oposicion ath tractament. Per exercir aguesti drets, mès informacion a <a href='http://economia.gencat.cat/drets' target='_blank'>economia.gencat.cat/drets</a>\r\n<b>Informacion addicionala:</b> <a href='http://economia.gencat.cat/serveis-tramits' target='_blank'>economia.gencat.cat/serveis-tramits</a>"
                 }
             ],
             "ProteccioDades": {
                 "titol": "Informació bàsica sobre protecció de dades",
-                "descripcio": "<p><b>Identificació del tractament:</b> 'Serveis i tràmits gencat'</p><p><b>Responsable del tractament:</b> Direcció General d'Atenció Ciutadana. Departament de la Presidència.</p><p><b>Finalitat del tractament:</b> garantir la traçabilitat de totes les gestions que la ciutadania realitza amb l'Administració de la Generalitat de Catalunya, mitjançant la plataforma corporativa de la Generalitat Gencat Serveis i Tràmits.</p><p><b>Legitimació:</b> missió realitzada en interès públic o exercici de poders públics i consentiment de la persona interessada.</p><p><b>Destinataris:</b> es preveuen comunicacions de dades als departaments de la Generalitat i entitats vinculades que en depenen per a la gestió dels diferents serveis públics de la seva competència. Les dades també es comunicaran als encarregats de tractament que proveeixen els serveis TIC per compte del responsable del tractament.</p><p><b>Drets de les persones interessades:</b> sol·licitar l'accés, rectificació o supressió de les dades, i la limitació o oposició al tractament. Cal utilitzar els formularis disponibles a la pàgina web del Departament de la Presidència.</p><p><b>Informació addicional:</b> si voleu ampliar aquesta informació podeu consultar la informació addicional del tractament.</p>"
+                "descripcio": "<b>Tractament:</b> serveis i tràmits gencat\r\n<b>Responsable:</b> Direcció General d'Atenció Ciutadana\r\n<b>Finalitat:</b> garantir la traçabilitat de les gestions que la ciutadania realitza amb la Generalitat de Catalunya, mitjançant la plataforma corporativa Gencat Serveis i Tràmits\r\n<b>Legitimació:</b> interès públic o exercici de poders públics \r\n<b>Destinataris:</b> departaments de la Generalitat i entitats que en depenen per a la gestió dels serveis públics, i encarregats de tractament que proveeixen els serveis TIC\r\n<b>Drets:</b> sol·licitar l'accés, rectificació o supressió de les dades, i la limitació o oposició al tractament. Per exercir aquest drets, més informació a <a href='http://economia.gencat.cat/drets' target='_blank'>economia.gencat.cat/drets</a>\r\n<b>Més informació:</b> <a href='http://economia.gencat.cat/serveis-tramits' target='_blank'>economia.gencat.cat/serveis-tramits</a>"
             },
             "tipusSignatari": "0",
             "nomConcatenat": "PERSONADE LA PEÇADE PROVES",
@@ -85,7 +112,7 @@
                                 "nomVia": "nada",
                                 "numero": "1"
                             },
-                            "telefonMobil": "0034667018395",
+                            "telefonMobil": "0034666084355",
                             "adrecaElectronica": "tecnic.ott.operacions22@gencat.cat"
                         },
                         "genere": "H",
@@ -145,7 +172,7 @@
                                 "nomVia": "nada",
                                 "numero": "1"
                             },
-                            "telefonMobil": "0034667018395",
+                            "telefonMobil": "0034666084355",
                             "adrecaElectronica": "tecnic.ott.operacions22@gencat.cat"
                         },
                         "genere": "H",
@@ -206,7 +233,7 @@
                                     "nomVia": "nada",
                                     "numero": "1"
                                 },
-                                "telefonMobil": "0034667018395",
+                                "telefonMobil": "0034666084355",
                                 "adrecaElectronica": "tecnic.ott.operacions22@gencat.cat"
                             },
                             "genere": "H",
